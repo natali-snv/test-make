@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Spiridonova Test</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="icon" href="images/logo.png">
+   </head>
+   <body>
+      <div id="myModal" class="modal">
+         <div class="modal-contant">
+            <div class="modal-header">
+               <div class="logo">
+                  <img src="images/logo.png" alt="logo">
+               </div>
+               <div class="item-modal">
+                  <p class="completed">Задание выполнил</p>
+               </div>
+            </div>
+            <div class="about">
+               <h2 class="full-name">Спиридонова <br> Наталья Владимировна</h2>
+               <p class="about-me">Начинающий Frontend-разработчик. Закончила курсы "Frontend разработчик" (HTML5, CSS3, JavaScript) CanSheCode, Канада 2022-2023гг.</p>
+               <h4 class="tel">+7 (951) 376-24-33</h4>
+               <div class="link">
+                  <a class="nv" href="https://instagram.com/slivkanamore?igshid=YmMyMTA2M2Y=" target="_blank"> <img src="https://cdn.glitch.com/40ec0814-c512-48f6-9220-30cf387f0e64%2Finstaiconwhite.png?v=1625948744721" alt="instagram" width="48"></a>
+                  <a class="link-text" href="https://instagram.com/slivkanamore?igshid=YmMyMTA2M2Y=" target="_blank">Ссылка на Instagram</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <header class="header">
+         <div class="container">
+            <div class="logo">
+               <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="item-name">
+               <p class="name"><span class="highlight">Спиридонова</span><br>Наталья Владимировна</p>
+            </div>
+            <div class="main-header__hamburger hamburger" id="hamburger__button">
+               <span class="hamburger__line"></span>
+               <span class="hamburger__line"></span>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <h1 class="top-title">Тестовое задание</h1>
+         <p class="junior">Уровень: junior</p>
+         <div class="content">
+            <nav class="nav">
+               <ul class="menu-list">
+                  <li class="menu-item">
+                     <a class="item" href="#parting-words">Напутственное слово</a>
+                  </li>
+                  <li class="menu-item">
+                     <a class="item" href="#net">Сетка</a>
+                  </li>
+                  <li class="menu-item">
+                     <a class="item" href="#typography">Типографика</a>
+                  </li>
+                  <li class="menu-item">
+                     <a class="item" href="#ui">UI</a>
+                  </li>
+               </ul>
+            </nav>
+            <div class="main-container">
+               <section id="parting-words">
+                  <p class="exercise limitation hello">Привет! Твоё тестовое задание — грамотно заверстать эту прекрасную страничку. В шапке страницы укажи своё ФИО, так всем будет удобнее. В менюхе под иконкой бургером мы хотели бы также видеть твои данные. Ну что, поехали?</p>
+               </section>
+               <section id="net">
+                  <h2 class="subtitle limitation">Сетка</h2>
+                  <p class="exercise limitation layout">Задание предполагает адаптивную вёрстку. Используется 3 состояния в зависимости от устройства. Сетка «резиновая» — переменной ширины.</p>
+                  <div class="net-info">
+                     <h3 class="device-size limitation desctop">Десктоп (1200+)</h3>
+                     <div class="section-info">
+                        <div class="section-condition">
+                           <p class="section-condition__title">Контент</p>
+                           <p class="section-condition__number">1072–1312</p>
+                        </div>
+                        <div class="section-condition">
+                           <p class="section-condition__title">Колонок</p>
+                           <p class="section-condition__number">12</p>
+                        </div>
+                        <div class="section-condition">
+                           <p class="section-condition__title">Ширина колонки</p>
+                           <p class="section-condition__number">60-80</p>
+                        </div>
+                        <div class="section-condition">
+                           <p class="section-condition__title">Межколонник</p>
+                           <p class="section-condition__number">32</p>
+                        </div>
+                     </div>
+                     <img class="image" src="images/pic_desctop.png" alt="desktop">
+                  </div>
+                  <div class="net-info">
+                     <h3 class="device-size limitation tablet">Планшет (736+)</h3>
+                     <div class="section-info">
+                        <div class="section-condition">
+                           <p class="section-condition__title">Контент</p>
+                           <p class="section-condition__number">672–928</p>
+                        </div>
+                        <div class="section-condition">
+                           <p class="section-condition__title">Колонок</p>
+                           <p class="section-condition__number">8</p>
+                        </div>
+                        <div class="section-condition">
+                           <p class="section-condition__title">Ширина колонки</p>
+                           <p class="section-condition__number">56-88</p>
+                        </div>
+                        <div class="section-condition">
+                           <p class="section-condition__title">Межколонник</p>
+                           <p class="section-condition__number">32</p>
+                        </div>
+                     </div>
+                     <img class="image" src="images/pic_tab.png" alt="tablet">
+                  </div>
+                  <div class="net-info">
+                     <h3 class="device-size limitation phone">Телефон (320+)</h3>
+                     <div class="section-info">
+                        <div class="section-condition">
+                           <p class="section-condition__title">Контент</p>
+                           <p class="section-condition__number">296–424</p>
+                        </div>
+                        <div class="section-condition">
+                           <p class="section-condition__title">Колонок</p>
+                           <p class="section-condition__number">4</p>
+                        </div>
+                        <div class="section-condition">
+                           <p class="section-condition__title">Ширина колонки</p>
+                           <p class="section-condition__number">56-88</p>
+                        </div>
+                        <div class="section-condition">
+                           <p class="section-condition__title">Межколонник</p>
+                           <p class="section-condition__number">24</p>
+                        </div>
+                     </div>
+                     <img class="image" src="images/pic_mob.png" alt="mobile">
+                  </div>
+               </section>
+               <section id="typography">
+                  <h2 class="subtitle limitation">Типографика</h2>
+                  <p class="exercise limitation font">Используется шрифт Graphik. На телефонах стили типографики переопределяются</p>
+                  <div class="tab">
+                     <button class="tablinks" onclick="openTranscript(event, 'desctop')" id="defaultOpen">Десктоп</button>
+                     <button class="tablinks" onclick="openTranscript(event, 'phone')">Телефон</button>
+                  </div>
+                  <!-- Tab content -->
+                  <div id="desctop" class="tabcontent">
+                     <div class="container-font">
+                        <p class="grey-text">Заголовок H1, 48/56, bold</p>
+                        <h1 class="title-text-one">Текст заголовка</h1>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Заголовок H2, 32/40, bold</p>
+                        <h2 class="title-text-two">Текст заголовка</h2>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Заголовок H3, 24/32, medium</p>
+                        <h3 class="title-text-three">Текст заголовка</h3>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Заголовок H4, 18/28, medium</p>
+                        <h4 class="title-text-four">Текст заголовка</h4>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Лид P_Lead, 24/32, regular</p>
+                        <p class="lead-text">Текст лида</p>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Крупный текст P_18, 18/28, regular</p>
+                        <p class="large-text">Крупный текст</p>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Основной текст P_16, 16/24, regular</p>
+                        <p class="main-text">Основной текст</p>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Впомогательный текст P_14, 14/20, regular</p>
+                        <p class="supporting-text">Вспомогательный текст</p>
+                     </div>
+                  </div>
+                  <div id="phone" class="tabcontent">
+                     <div class="container-font">
+                        <p class="grey-text">Заголовок H1, 48/56, bold</p>
+                        <h1 class="phone-text-one">Текст заголовка</h1>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Заголовок H2, 32/40, bold</p>
+                        <h2 class="phone-text-two">Текст заголовка</h2>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Заголовок H3, 24/32, medium</p>
+                        <h3 class="phone-text-three">Текст заголовка</h3>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Заголовок H4, 18/28, medium</p>
+                        <h4 class="phone-text-four">Текст заголовка</h4>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Лид P_Lead, 24/32, regular</p>
+                        <p class="phone-lead-text">Текст лида</p>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Крупный текст P_18, 18/28, regular</p>
+                        <p class="phone-large-text">Крупный текст</p>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Основной текст P_16, 16/24, regular</p>
+                        <p class="phone-main-text">Основной текст</p>
+                     </div>
+                     <div class="container-font">
+                        <p class="grey-text">Впомогательный текст P_14, 14/20, regular</p>
+                        <p class="phone-supporting-text">Вспомогательный текст</p>
+                     </div>
+                  </div>
+               </section>
+               <section id="ui">
+                  <h2 class="subtitle limitation">UI</h2>
+                  <h3 class="device-size text-field limitation">Текстовое поле</h3>
+                  <div class="email-three">
+                     <div class="container-form">
+                        <p class="description-form colorless">Пусто</p>
+                        <div class="form-control">
+                           <input type="email" id="email" required="">
+                           <label>
+                              <span style="transition-delay:0ms">E</span><span style="transition-delay:50ms">-</span><span style="transition-delay:100ms">m</span><span style="transition-delay:150ms">a</span><span style="transition-delay:200ms">i</span><span style="transition-delay:250ms">l</span>
+                              <p class="error-message"></p>
+                           </label>
+                        </div>
+                     </div>
+                     <div class="container-form">
+                        <p class="description-form">Ховер</p>
+                        <div class="form-control" id="form-control-hover">
+                           <input type="email" id="email-hover" required="">
+                           <label>
+                           <span class="fix">E-mail</span>
+                           </label>
+                        </div>
+                     </div>
+                     <div class="container-form">
+                        <p class="description-form">Ввод</p>
+                        <div class="form-control" id="form-control-hover">
+                           <input type="email" id="email-enter">
+                           <label>
+                           <span>E-mail</span>
+                           </label>
+                           <p class="email-text">office@make.st</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="email-one">
+                     <div class="container-form">
+                        <p class="description-form">Ошибка</p>
+                        <div class="form-control" id="form-control-hover">
+                           <input type="email" id="email-error">
+                           <label>
+                           <span class="red">E-mail</span>
+                           </label>
+                           <p class="email-text">officemake.st</p>
+                           <p class="error-fix">Текст ошибки</p>
+                        </div>
+                     </div>
+                  </div>
+                  <h3 class="device-size list limitation">Выпадающий список</h3>
+                  <h3 class="exercise component limitation">Компонент состоит из текстового поля и выпадающей подсказки</h3>
+                  <div class="container-select">
+                     <div class="custom-select">
+                        <select>
+                           <option class="zero" value="0">Выберите что-нибудь</option>
+                           <option value="1">Первый стул</option>
+                           <option value="2">Второй стул</option>
+                           <option value="3">Выбранный пункт</option>
+                           <option value="4">Теорема Эскобара</option>
+                        </select>
+                     </div>
+                     <div class="custom-select">
+                        <select class="select">
+                           <option class="zero" value="0">Выберите что-нибудь</option>
+                           <option value="1">Первый стул</option>
+                           <option value="2">Второй стул</option>
+                           <option value="3">Выбранный пункт</option>
+                           <option value="4">Теорема Эскобара</option>
+                        </select>
+                     </div>
+                     <div class="custom-select">
+                        <select>
+                           <option class="zero" value="0">Выберите что-нибудь</option>
+                           <option value="1">Первый стул</option>
+                           <option value="2">Второй стул</option>
+                           <option value="3">Выбранный пункт</option>
+                           <option value="4">Теорема Эскобара</option>
+                        </select>
+                     </div>
+                  </div>
+                  <h3 class="device-size btn limitation">Кнопка</h3>
+                  <div class="email-three">
+                     <div class="container-form">
+                        <p class="description-form colorless">Пусто</p>
+                        <div class="form-btn">
+                           <button class="button-gradient">Отправить</button>
+                        </div>
+                     </div>
+                     <div class="container-form">
+                        <p class="description-form">Ховер</p>
+                        <div class="form-btn">
+                           <button class="button-hover">Отправить</button>
+                        </div>
+                     </div>
+                     <div class="container-form">
+                        <p class="description-form">Нажатие</p>
+                        <div class="form-btn">
+                           <button class="button-enter">Отправить</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="email-one">
+                     <div class="container-form">
+                        <p class="description-form">Неактивна</p>
+                        <div class="form-btn">
+                           <button class="button-gradient" id="myButton" disabled>Отправить</button>
+                        </div>
+                     </div>
+                  </div>
+                  <h3 class="device-size check limitation">Чекбокс, радиобаттон</h3>
+                  <div class="container-check">
+                     <div class="container-check-list">
+                        <label class="check-list">Выбери меня
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        </label>
+                        <label class="check-list">Выбери меня
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        </label>
+                        <label class="check-list">Птица счастья завтрашнего дня
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                        </label>
+                     </div>
+                     <div class="container-check-list">
+                        <label class="radio-list">Пластмассовый мир победил
+                        <input type="radio" name="two">
+                        <span class="radiomark"></span>
+                        </label>
+                        <label class="radio-list">Макет оказался сильней
+                        <input type="radio" name="two">
+                        <span class="radiomark"></span>
+                        </label>
+                        <label class="radio-list">Последний кораблик остыл
+                        <input type="radio" name="two" checked="checked">
+                        <span class="radiomark"></span>
+                        </label>
+                     </div>
+                  </div>
+                  <h3 class="device-size accordion limitation">Аккордеон</h3>
+                  <button class="accordion-text">Аккордеон</button>
+                  <div class="panel">
+                     <p class="song">Гоpдость полными вагонами золотыми погонами <br>
+                        С юга дyют молодые вет… <br>
+                        Pазpывая в клочья облака не забыли шлют из далека <br>
+                        С дома мама И не последняя любовь <br>
+                        А по небy бегyт видишь чьи-то следы <br>
+                        Это может быть ты это может быть я <br>
+                        Это может наш дрyг Это может нам поют свои
+                     </p>
+                  </div>
+                  <button class="accordion-text accordion-hover">Аккордеон</button>
+                  <div class="panel">
+                     <p class="song">Гоpдость полными вагонами золотыми погонами <br>
+                        С юга дyют молодые вет… <br>
+                        Pазpывая в клочья облака не забыли шлют из далека <br>
+                        С дома мама И не последняя любовь <br>
+                        А по небy бегyт видишь чьи-то следы <br>
+                        Это может быть ты это может быть я <br>
+                        Это может наш дрyг Это может нам поют свои
+                     </p>
+                  </div>
+                  <button class="accordion-text active">Аккордеон</button>
+                  <div class="panel">
+                     <p class="song">Гоpдость полными вагонами золотыми погонами <br>
+                        С юга дyют молодые вет… <br>
+                        Pазpывая в клочья облака не забыли шлют из далека <br>
+                        С дома мама И не последняя любовь <br>
+                        А по небy бегyт видишь чьи-то следы <br>
+                        Это может быть ты это может быть я <br>
+                        Это может наш дрyг Это может нам поют свои
+                     </p>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </main>
+      <footer>
+         <p class="victory">Победа! 😜</p>
+      </footer>
+      <script src="js/script.js"></script>
+   </body>
+</html>
