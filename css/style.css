@@ -191,7 +191,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 64px;
 }
 
 .top-title {
@@ -1049,6 +1048,10 @@ footer {
 }
 
 @media all and (max-width: 1250px) {
+  .main-container {
+    margin-left: 212px;
+  }
+
   .image {
     width: 724px;
   }
@@ -1076,6 +1079,160 @@ footer {
   .panel {
     width: 724px;
   }
+}
 
+@media all and (max-width: 1050px) {
+  .header {
+    padding: 32px 32px 48px;
+}
 
+  .modal-header {
+    padding: 24px 24px;
+  }
+
+  .modal-contant {
+    width: 592px;
+}
+
+  .hamburger {
+    padding: 0 64px 0 0;
+}
+
+.nav {
+  padding: 64px 32px;
+}
+
+  .main-container {
+    margin-left: 212px;
+  }
+
+  .image {
+    width: 592px;
+  }
+
+  .tab {
+    width: 592px;
+  }
+
+  .form-control {
+    width: 176px;
+  }
+
+  .custom-select {
+    width: 176px;
+}
+
+  .form-btn {
+    width: 176px;
+  }
+
+  .accordion-text {
+    width: 592px;
+  }
+
+  .panel {
+    width: 592px;
+  }
+
+  .section-condition__title {
+    width: 124px;
+}
+
+.container-check-list {
+  width: 275px;
+}
+
+.check-list, .radio-list {
+  font-size: 14px;
+}
+
+.title-text-one {
+  font-size: 38px;
+}
+
+.select-items div, .select-selected {
+  font-size: 15px;
+}
+
+.top-title, .junior {
+  margin-left: 212px;
+}
+}
+
+@media all and (max-width: 850px) {
+  .image {
+    width: 552px;
+  }
+
+  .tab {
+    width: 552px;
+  }
+
+  .form-control {
+    width: 168px;
+  }
+
+  
+  .email-three {
+    gap: 24px;
+}
+
+  .custom-select {
+    width: 168px;
+}
+
+  .form-btn {
+    width: 168px;
+  }
+
+  .accordion-text {
+    width: 552px;
+  }
+
+  .panel {
+    width: 552px;
+  }
+
+  .section-info {
+    gap: 24px;
+}
+
+  .section-condition__title {
+    width: 120px;
+}
+
+.container-check {
+  gap: 24px;
+}
+
+.container-check-list {
+  width: 275px;
+}
+
+.title-text-one {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.title-text-two {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.container-select {
+  gap: 24px;
+}
+
+.select-items div, .select-selected {
+  font-size: 15px;
+}
+
+.top-title, .junior {
+  margin-left: 190px;
+  width: 552px;
+}
+
+.limitation {
+  width: 552px;
+}
 }
